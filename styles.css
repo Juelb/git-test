@@ -1,65 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .menu-container {
-    color: #fff;
-    background-color: #59a4da;  /* Blue */
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .menu {
-    /* border: 1px solid #fff;  For debugging */
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .links {
-    /* border: 1px solid #fff;  For debugging */
-    display: flex;
-    justify-content: flex-end;
-  }
+.menu-container {
+  color: #fff; /* for debugging */
+  background-color: #59b0e6;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center; 
+}
 
-  .login {
-    margin-left: 20px;
-  }
+.menu {
+  border: 1px solid #fff;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .header-container {
-    color: #5995DA;
-    background-color: #D6E9FE;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .header {
-    width: 900px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.links {
+  border: 1px solid #fff; /* for debugging */
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .photo-grid-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .photo-grid {
-    width: 900px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  
-  .photo-grid-item {
-    border: 1px solid #fff;
-    width: 300px;
-    height: 300px;
-  }
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: #1090e0;
+  background-color: #a3d3f0;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-grid-item {
+  border: 1px white;
+  width: 300px;
+  height: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid#fff;
+  background-color: #1090e0;
+  height: 200px;
+  flex: 1
+  ;
+}
